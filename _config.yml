@@ -22,8 +22,8 @@ title: DefaultBlog
 email: arteam_101@mail.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Тестовый проект Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-learn" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com 
 
 github_username:  default-g
 

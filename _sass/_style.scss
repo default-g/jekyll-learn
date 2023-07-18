@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #dce027;
+    background-color: $brand-color;
 }
 
 ::-webkit-scrollbar-track {
@@ -61,10 +61,9 @@ a {
     color: $h-color;
     text-decoration: none;
     border-bottom: 1px solid;
-    &:hover {
+    &:hover, &.active {
         background-color: $h-color;    
-        color: #444;
-        
+        color: #444;   
     }
 }
 
@@ -89,7 +88,7 @@ nav {
             display: inline-block;
             margin-left: 0.5em;
             &:before {
-                content: ' /';
+                content: '  /';
                 color: $h-color;
             }
         }

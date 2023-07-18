@@ -42,8 +42,8 @@ navbar:
   - title: Обо мне
     url: /about/
 
-  - title: Контакты
-    url: /contact/
+  - title: Посты
+    url: /posts/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
